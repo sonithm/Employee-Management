@@ -59,6 +59,28 @@ export const PAGES_MENU = [
         ]
       },
       {
+        path: 'employee',
+        data: {
+          menu: {
+            title: 'general.menu.employee',
+            icon: 'ion-gear-a',
+            selected: false,
+            expanded: false,
+            order: 249,
+          }
+        },
+        children: [
+          {
+            path: 'treeview',
+            data: {
+              menu: {
+                title: 'general.menu.tree_view',
+              }
+            }
+          }
+        ]
+      },
+      {
         path: 'charts',
         data: {
           menu: {
